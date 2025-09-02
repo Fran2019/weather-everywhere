@@ -1,0 +1,82 @@
+body {
+  font-family: "Raleway", "Roboto", sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  color: #333;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3em;
+  color: #222;
+}
+
+.main-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.weather-widget-card {
+  transition: background 0.5s ease;
+  box-shadow: 0 8px 20px rgba(107, 107, 107, 0.3);
+  padding: 50px;
+  height: auto;
+  line-height: normal;
+}
+
+/* back depend on the weather */
+.weather-widget-card.sunny {
+  background: linear-gradient(to bottom, #fceabb, #f8b500); /* amarillo soleado */
+}
+.weather-widget-card.cloudy {
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50); /* gris nublado */
+}
+.weather-widget-card.rainy {
+  background: linear-gradient(to bottom, #00c6fb, #005bea); /* azul lluvia */
+}
+.weather-widget-card.snowy {
+  background: linear-gradient(to bottom, #e0f7fa, #80deea); /* azul claro nieve */
+}
+
+/* Select style */
+#city-selector {
+  margin-top: 15px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+/* form */
+form input {
+  border-radius: 10px !important;
+}
+
+.btn-dark {
+  background: #4e6a8a;
+  border: none;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn-dark:hover {
+  background: #768ca7;
+}
+
+.list-group-item {
+  border: none;
+  background: #f2f3f5;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    background: lightblue;
+  }
+
+  .col-md-6 pe-md-5 {
+    margin-top: 100px;
+  }
+}
