@@ -2,15 +2,15 @@
 
 # 🌦️ Weather Everywhere
 
-**Weather Everywhere** es un widget desarrollado en **Node.js** que permite consultar el clima actual de cualquier ciudad del mundo 🌍 utilizando una API de datos meteorológicos.  
+**Weather Everywhere** is a widget built with **Node.js** that allows you to check the current weather of any city in the world 🌍 using a weather data API.  
 
-## ✨ Características
-- 🌡️ Temperatura actual  
-- 💧 Nivel de humedad  
-- ☁️ Estado del cielo (despejado, nublado, lluvioso, etc.)  
-- 📍 Búsqueda por nombre de ciudad en cualquier parte del mundo  
+## ✨ Features
+- 🌡️ Current temperature  
+- 💧 Humidity level  
+- ☁️ Sky conditions (clear, cloudy, rainy, etc.)  
+- 📍 Search by city name anywhere in the world  
 
-## 🔧 Tecnologías utilizadas
+## 🔧 Technologies Used
 - **Node.js**  
-- **API de clima** (ej. OpenWeatherMap)  
+- **Weather API** (e.g. OpenWeatherMap)  
 - **JavaScript / HTML / CSS**  
